@@ -1,0 +1,24 @@
+label{
+    display: block;
+    color: white;
+  }
+  body{
+    background-color:  rgba(100, 100, 255, 0.8);
+  }
+  form{
+    background-color:rgba(155, 155, 255, 0.8);
+  }
+  select{
+    background-color: rgba(0, 0, 200, 0.5);
+    color: white;
+  }
+  input{
+    background-color: rgba(80, 80, 255, 0.5);
+    color: white;
+  }
+  ::placeholder{
+    color: #BFBFBF;
+  }
+  textarea{
+    background-color: rgba(80, 80, 255, 0.5);
+  }
