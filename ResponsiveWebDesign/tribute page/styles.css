@@ -1,0 +1,21 @@
+#image{
+    width: 200px;
+    height: auto;
+    max-width: 100%;
+    max-height: 400px;
+    margin: 0 auto;
+    display: block;
+  }
+  
+  header{
+    background-color: #d2d2c3;
+  }
+  p{
+    background-color: #d9d9c0;
+  }
+  #main{
+    background-color: #d1d1c0;
+  }
+  a{
+    color: blue;
+  }
