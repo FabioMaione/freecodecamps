@@ -15,7 +15,7 @@
       </label>
       <label id="number-label">Age:
       <input type="number" min="10" max="99" required id="number" placeholder="10"/>
-      </label>
+      </label><br/>
       <label>Select one option:
         <select id="dropdown">
           <option>Option One</option>
@@ -24,10 +24,18 @@
       </label>
       <label><input type="radio" name="radioselect" value="uno"> One</label>
       <label><input type="radio" name="radioselect" value="due"> Two</label>
-      <label>This <input type="checkbox" value="this">
-      Those <input type="checkbox" value="those"></label>
-      <label>That <input type="checkbox" value="that">
-      These <input type="checkbox" value="these"></label>
+
+      <table id="table">
+      <tr>
+        <td>This <input type="checkbox" value="this"></td>
+        <td>Those <input type="checkbox" value="those"></td>
+      </tr>
+      <tr>
+        <td>That <input type="checkbox" value="that"></td>
+        <td>These <input type="checkbox" value="these"></td>
+      </tr>
+      </table>
+      
       <textarea placeholder="other info" rows="8" cols="20"></textarea>
       <input type="submit" id="submit" value="send">
     </form>

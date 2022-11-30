@@ -1,12 +1,21 @@
-label{
+  label{
     display: block;
     color: white;
   }
   body{
-    background-color:  rgba(100, 100, 255, 0.8);
+    background-color:blue;
+    text-align: center;
+    color: white;
+    
   }
   form{
-    background-color:rgba(155, 155, 255, 0.8);
+    background-color:rgba(44, 44, 115, 0.8);
+    border: 1px;
+    border-color: black;
+    border-style: ridge;
+    width: 250px;
+    height: 450px;
+    margin: 0 auto;
   }
   select{
     background-color: rgba(0, 0, 200, 0.5);
@@ -21,4 +30,15 @@ label{
   }
   textarea{
     background-color: rgba(80, 80, 255, 0.5);
+    color: white;
   }
+  #number-label{
+    padding-top: 10px;;
+  }
+
+  #name-label, #email-label{
+    padding-top: 10px;;
+  }
+#table{
+  margin-left: 25px;
+}
